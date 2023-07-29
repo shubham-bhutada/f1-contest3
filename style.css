@@ -1,0 +1,208 @@
+.image-with-short-description {
+    display: flex;
+    width: auto;
+    /* margin: 10px 0px !important; */
+    justify-content: space-around;
+    align-items: start;
+    margin-inline: 30px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.image-with-short-description-1>img {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.image-with-short-description-2>img {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+.image-with-short-description-3>img {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+.image-with-short-description-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.image-with-short-description-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.image-with-short-description-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.image-text-1 {
+    text-align: center;
+    margin: 5px 10px;
+    padding: 0px 10px;
+}
+.image-text-2 {
+    text-align: center;
+    margin: 5px 10px;
+    padding: 0px 10px;
+}
+.image-text-3 {
+    text-align: center;
+    margin: 5px 10px;
+    padding: 0px 10px;
+}
+
+.image-gallery {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.image-grid {
+   display: grid; 
+   width: 90%;
+   height: 90%;
+   grid-template-columns: repeat(6, 2fr);
+   grid-template-rows: repeat(8, 10vw);
+   grid-template-areas: 
+   "a a b c d d"
+   "a a b c d d"
+   "a a e f g g"
+   "a a e f g g"
+   "h h i i i i"
+   "h h i i i i"
+   "h h i i i i"
+   "h h i i i i"
+   ;
+}
+.pic-1 {
+    grid-area: a;
+    margin: 10px;
+    background-size: cover;  
+    background-image: url("https://images.pexels.com/photos/3848656/pexels-photo-3848656.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic-2 {
+    grid-area: b;
+    margin: 10px;
+    background-size: cover; 
+    background-image: url("https://images.pexels.com/photos/4500661/pexels-photo-4500661.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic-3 {
+    grid-area: c;
+    margin: 10px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/4686501/pexels-photo-4686501.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic-4 {
+    grid-area: d;
+    margin: 10px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/17362176/pexels-photo-17362176/free-photo-of-a-person-holding-a-small-mirror-on-the-background-of-green-grass.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic-5 {
+    grid-area: e;
+    margin: 10px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/17344663/pexels-photo-17344663/free-photo-of-a-small-cactus-in-a-white-pot.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic-6 {
+    grid-area: f;
+    margin: 10px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/17301472/pexels-photo-17301472/free-photo-of-a-small-room-with-a-place-to-sit-decorated-with-plants-and-books.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic-7 {
+    grid-area: g;
+    margin: 10px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/17291169/pexels-photo-17291169/free-photo-of-stairs-to-small-building-in-green-park.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic-8 {
+    grid-area: h;
+    margin: 10px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/17280006/pexels-photo-17280006/free-photo-of-close-up-of-a-robin-on-a-wooden-pole.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.pic-9 {
+    grid-area: i;
+    margin: 10px;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/17178379/pexels-photo-17178379/free-photo-of-a-small-domestic-dog-on-the-beach.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.my-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.footer-row-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+}
+.footer-row-1-list-1>ul>li, .footer-row-1-list-2>ul>li  {
+    list-style-type: none;
+    text-decoration: 1px underline blue;
+    font-size: 20px;
+    
+}
+.footer-row-1-list-1>ul, .footer-row-1-list-2>ul {
+    padding-left: 0px;
+}
+
+.footer-row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4% 8%;
+}
+
+.footer-row-1-list-1 {
+    width: 250px;
+}
+.footer-row-1-list-2 {
+    width: 250px;
+}
+.row-1-info {
+    width: 280px;
+}
+.my-email {
+    font-size: large;
+}
+.my-phone {
+    font-size: large;
+}
+ 
+@media screen and (max-width: 750px) {
+    .footer-row-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 10%;
+    }
+    .footer-row-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-row-2>a {
+        position: relative;
+        bottom: 0px;
+        left: 60vw;
+    }
+
+} 
